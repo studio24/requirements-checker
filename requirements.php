@@ -27,6 +27,7 @@ $req = array(
         'bcmath',
         'gd',
         'intl',
+        'json',
         'mbstring',
         'mcrypt',
         'opcache',
@@ -42,7 +43,6 @@ $req = array(
         'allow_url_include'   => '0',
     )
 );
-
 
 // Run requirements checker
 $emailContent = '';
