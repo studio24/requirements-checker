@@ -1,6 +1,6 @@
 # Requirements checker
 
-Simple PHP requirements checker for hosting environments
+Simple PHP requirements checker for checking minimum requirements for PHP web applications at your hosting environment.
 
 ## Usage
 
@@ -20,17 +20,17 @@ php requirements.php --email=name@domain.com
 
 Add requirements to the `$req` array. This accepts:
 
-* php_version - minimum PHP version required
-* modules - PHP modules required
-* ini - PHP ini settings required
+* `php_version` - minimum PHP version required
+* `modules` - PHP modules required
+* `ini` - PHP ini settings required
 
 For ini settings express boolean ini settings as `'1'` or `'0'`
 
-A limited number of ini settings are supported at present, you can add new ones at `check_php_ini`
+A limited number of ini settings are supported at present, you can add new ones in the `check_php_ini` function.
 
 ## License
 
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+The MIT License (MIT). Please see [License File](LICENSE) for more information.
 
 ## Credits
 
