@@ -35,3 +35,4 @@ The MIT License (MIT). Please see [License File](LICENSE) for more information.
 ## Credits
 
 - [Simon R Jones](https://github.com/simonrjones)
+- Inspired by [Symfony requirements checker](https://github.com/symfony/requirements-checker)
