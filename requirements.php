@@ -22,18 +22,17 @@
 $req = array(
     'php_version' => '7.1.0',
     'modules'     => array(
-        'mysqlnd',
-        'mbstring',
         'bcmath',
+        'exif',
+        'fileinfo',
         'gd',
         'intl',
         'json',
         'mbstring',
         'mcrypt',
+        'mysqlnd',
         'opcache',
         'soap',
-        'exif',
-        'fileinfo'
     ),
     'ini'         => array(
         'memory_limit'        => '1024M',
